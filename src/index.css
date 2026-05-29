@@ -1,0 +1,14 @@
+/* index.css — add at the very top */
+[data-theme="dark"] {
+  --bg-primary: #000000;
+  /* ...rest of dark variables */
+}
+
+[data-theme="light"] {
+  --bg-primary: #f5f5f7;
+  /* ...rest of light variables */
+}
+
+/* your existing index.css styles below */
+
+body { margin: 0; }
